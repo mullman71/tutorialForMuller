@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-project-file
+  description: Sample of a project file for use in Backstage.
+  tags:
+    - go
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: mullman71
